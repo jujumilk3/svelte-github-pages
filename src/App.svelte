@@ -2,6 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from './assets/vite.svg'
   import Counter from './lib/Counter.svelte'
+  import TailwindComponent from "./lib/TailwindComponent.svelte";
 </script>
 
 <main>
@@ -26,6 +27,10 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more.
   </p>
+  <div class="card">
+    <TailwindComponent />
+    <TailwindComponent str="Inputted string"/>
+  </div>
 </main>
 
 <style>
